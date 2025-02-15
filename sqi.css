@@ -31,6 +31,7 @@
 
 .parent nav #fs ul .about{
     position: relative;
+    transform: translate(2s);
 }
 
 
@@ -54,6 +55,8 @@
 
 .parent nav #fs ul .about:hover > .about-dropdown{
     display: block;
+    transform: translateY(28px);
+    /* transition: 2s; */
 }
 
 .parent nav #fs ul .about .about-dropdown li:hover{
@@ -85,6 +88,7 @@
 
 .parent nav #fs ul .programme:hover > .programme-dropdown{
     display: block;
+    transform: translateY(28px);
 }
 
 .parent nav #fs ul .programme .programme-dropdown li:hover{
@@ -117,6 +121,7 @@
 
 .parent nav #fs ul .admission:hover > .admission-dropdown{
     display: block;
+    transform: translateY(28px);
 }
 
 .parent nav #fs ul .admission .admission-dropdown li:hover{
@@ -148,6 +153,7 @@
 
 .parent nav #fs ul .portal:hover > .portal-dropdown{
     display: block;
+    transform: translateY(28px);
 }
 
 .parent nav #fs ul .portal .portal-dropdown li:hover{
@@ -168,12 +174,97 @@
 }
 
 .gp{
+    position: relative;
     width: 100%;
     height: 570px;
     background-color: rgba(245, 229, 207, 0.188);
 }
 
-.parent2{
+.container{
+    position: relative;
+}
+
+.container .col{
+    /* position: absolute; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.submit button{
+    padding: 16px 32px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    color: #ffffff;
+    background-color: #00208a;
+}
+
+ #study{
+    background-color: red;
+    width: 50%;
+    margin-top: 100px;
+}
+
+#learn{
+    color: #474747;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.text{
+    font-size: 4.25em;
+    color: #000e42;
+    font-weight: 700;
+    padding: 0px 0px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: red; */
+}
+
+#img{
+    width: 50%;
+    background-color: blue;
+    
+}
+
+#img .photo{
+    width: 100%;
+}
+
+#cardbox-wrapper{
+    /* margin-top: 400px; */
+}
+
+
+.cardbox{
+    margin-left: 35px;
+   
+}
+
+#card1{
+    background-color: #d5eaf3;
+    border-style: none;
+    box-shadow: 0.5px 1px 20px 15px rgba(211, 242, 211, 0.733);
+}
+#card2{
+    background-color: #eeefbd;
+    border: thin solid;
+    box-shadow: 0.5px 1px 20px 15px #ffded8;
+}
+#card3{
+    background-color: #e0d5c0;
+    border-style: none;
+    box-shadow: 0.5px 1px 20px 15px rgba(211, 242, 211, 0.733);
+}
+#card4{
+    background-color: #dfd5e8;
+    border: thin solid;
+    box-shadow: 0.5px 1px 20px 15px #ffded8;
+}
+
+
+/* .parent2{
     position: relative;
     margin: auto;
     display: flex;
@@ -183,7 +274,7 @@
 }
 
 .subparent2{
-    /* border: medium solid red; */
+    border: medium solid red;
     width: 50%;
     position: absolute;
     margin-top: 15px;
@@ -192,7 +283,7 @@
 }
 
 .photo-wrapper{
-    /* border: medium solid blue; */
+    border: medium solid blue;
     width: 50%;
     position: absolute;
     right: 0;
@@ -225,7 +316,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 600; 
-}
+} */
 
 #bar-icon{
     display: none;
